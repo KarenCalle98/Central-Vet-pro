@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Central-Vet"
+    }
+  },
+  "defaultProject": "Central-Vet",
+  "cli": {
+    "analytics": "8f395877-14d3-48ed-8394-4e050d6f431a"
+  }
 }
