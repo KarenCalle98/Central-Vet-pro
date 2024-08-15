@@ -1,4 +1,4 @@
-body {
+.body {
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -8,7 +8,10 @@ body {
   background-image: url('https://certifiedhumanelatino.org/wp-content/uploads/2023/06/CERTIFIED-HUMANE_Post-blog-2.png');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  background-color: #f0f0f0; /* Color de respaldo */
 }
+
 
 .registro-contenedor {
   width: 400px;
