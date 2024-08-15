@@ -7,17 +7,19 @@ import {RouterModule, Routes} from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
+import { RegisterComponent } from './register/register.component';
 
 
 const routes: Routes = [
   { path: '', component: LoginComponent },
-  //{ path: 'about', component: AboutComponent }
+  { path: 'register', component: RegisterComponent }
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
